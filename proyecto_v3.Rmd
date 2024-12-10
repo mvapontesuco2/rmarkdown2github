@@ -1,33 +1,34 @@
 ---
 # # Formato 1: HTML sin bibliografia formateada o da error !--
-title: "El chocolate"
-author: "MVAP, MVAP2, MVAP3"
-date: "2024-11-19"
-output:
-  html_document:
-    toc: true
-# si no quieres el indice; output:html_document
-# si quieres que sea una barra de navegación añade toc_float: true
-bibliography: ["zotero.bib", "libraries.bib"]
-link-citations: true
-
-# # Formato 2: Figura al principio del documento, nombres separados, output HTML sin bibliografia formateada o da error ! --
-# title: |
-#   ![](Logo_UCO.png){width=2in}  
-#   "El chocolate"
-# author:
-#    - MVAP b52agpom@uco.es
-#    - MVAP2 algo1@uco.es
-#    - MVAP3 algo2@uco.es
-# date: "`r Sys.Date()`"
+# title: "El chocolate"
+# author: "MVAP, MVAP2, MVAP3"
+# date: "2024-11-19"
 # output:
 #   html_document:
 #     toc: true
-#     toc_float: true
-# # bibliografía
-# bibliography: [zotero.bib, libraries.bib]
-# # crear links entre las citas de bibliografía y las citas a pie de página para poder inspeccionarlas
+# # si no quieres el indice; output:html_document
+# # si quieres que sea una barra de navegación añade toc_float: true
+# bibliography: ["zotero.bib", "libraries.bib"]
 # link-citations: true
+
+# # Formato 2: Figura al principio del documento, nombres separados, output HTML sin bibliografia formateada o da error ! --
+title: |
+  ![](Logo_UCO.png){width=2in}
+  "El chocolate"
+author:
+   - MVAP b52agpom@uco.es
+   - MVAP2 algo1@uco.es
+   - MVAP3 algo2@uco.es
+date: "`r Sys.Date()`"
+output:
+  github_document:
+    toc: true
+    html_preview: true
+    # toc_float: true
+# bibliografía
+bibliography: [zotero.bib, libraries.bib]
+# crear links entre las citas de bibliografía y las citas a pie de página para poder inspeccionarlas
+link-citations: true
 
 # Formato 3: Figura al principio del documento, nombres separados, output pdf con bibliografía formateada ! --
 # title:
