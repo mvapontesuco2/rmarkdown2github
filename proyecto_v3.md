@@ -1,4 +1,5 @@
-<img src="Logo_UCO.png" style="width:2in" /> “El chocolate”
+<img src="Logo_UCO.png" style="width:2in" />  
+“El chocolate”
 
 ================  
 
