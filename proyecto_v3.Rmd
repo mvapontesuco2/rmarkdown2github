@@ -4,9 +4,8 @@ title: "El chocolate"
 author: "MVAP, MVAP2, MVAP3"
 date: "2024-11-19"
 output:
-  github_document:
+  html_document:
     toc: true
-    html_preview: true
 # si no quieres el indice; output:html_document
 # si quieres que sea una barra de navegación añade toc_float: true
 bibliography: ["zotero.bib", "libraries.bib"]
